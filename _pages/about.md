@@ -73,10 +73,6 @@ Previously, I worked as a **Student Tutor at BRAC University**, where I supporte
 
 ## Education
 
-### M.Sc. in Computer Science and Engineering  
-**BRAC University**  
-Status: Ongoing
-
 ### B.Sc. in Computer Science and Engineering  
 **BRAC University**  
 CGPA: **3.63/4.00**
@@ -102,23 +98,7 @@ Selected research topics include:
 
 A detailed list of my journal articles, preprints, conference papers, and ongoing submissions is available on the [Publications page](/publications/).
 
----
 
-## Selected Publications
-
-1. Enam Ahmed Taufika, Md Ahasanul Arafath, **Abhijit Kumar Ghosh**, Md Tanzim Reza, and Md Ashad Alam.  
-   **Histo-MExNet: A Unified Framework for Real-World, Cross-Magnification, and Trustworthy Breast Cancer Histopathology.**  
-   *arXiv preprint arXiv:2603.14416*, 2026. Submitted to *Biomedical Signal Processing and Control*.
-
-2. Fateha Jannat Ayrin, Mizanur Rahman, Ashifur Rahman, Vishwanath Akuthota, **Abhijit Kumar Ghosh**, Md Maruf Hasan Khondaker, Muntasim Ul Haque, Montaser Abdul Quader, and Md Tanzim Reza.  
-   **Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning.**  
-   Accepted and presented at the *2026 IEEE International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE 2026)*.
-
-3. **Abhijit Kumar Ghosh**, Chowdhury Sajadul Islam, Mohammad Azim, Fariha Nusrat, Md. Ahasanul Arafath, and Md Tanzim Reza.  
-   **Swin Transformer-Based Multi-Class Classification of Gallbladder Diseases: A Comparative Study with Lightweight CNNs.**  
-   Presented at the *2nd Undergraduate Conference on Intelligent Computing and Systems (UCICS 2026)*.
-
----
 
 ## Professional Experience
 
