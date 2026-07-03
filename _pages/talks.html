@@ -1,16 +1,262 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<style>
+  .talk-page {
+    line-height: 1.65;
+    font-size: 1em;
+  }
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+  .talk-intro {
+    margin-bottom: 24px;
+    padding: 18px 20px;
+    background: #f7f9fb;
+    border-left: 5px solid #2f7f95;
+    border-radius: 4px;
+  }
 
-{% endif %}
+  .talk-section {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #e4e4e4;
+    color: #333333;
+  }
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  .talk-card {
+    margin-bottom: 26px;
+    padding: 18px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    background: #ffffff;
+  }
+
+  .talk-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.05em;
+    color: #222222;
+  }
+
+  .talk-meta {
+    margin-bottom: 8px;
+    color: #444444;
+  }
+
+  .talk-label {
+    font-weight: 700;
+    color: #333333;
+  }
+
+  .talk-status {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 4px 9px;
+    background-color: #f2f5f7;
+    border: 1px solid #d9e2e7;
+    border-radius: 4px;
+    font-size: 0.88em;
+    font-weight: 600;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #f2f5f7;
+    border: 1px solid #d9e2e7;
+    padding: 4px 9px;
+    margin: 4px 5px 4px 0;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+</style>
+
+<div class="talk-page">
+
+  <div class="talk-intro">
+    <p>
+      This page highlights selected conference presentations and academic talks by
+      <strong>Abhijit Kumar Ghosh</strong>. These presentations reflect his work in
+      <strong>Machine Learning, Deep Learning, Computer Vision, Medical Image Analysis, Multimodal AI, Time-Series Forecasting, and Trustworthy AI</strong>.
+    </p>
+  </div>
+
+  <h2 class="talk-section">Conference Presentations</h2>
+
+  <div class="talk-card">
+    <h3>Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning</h3>
+    <p class="talk-meta">
+      <span class="talk-label">Authors:</span>
+      Fateha Jannat Ayrin, Mizanur Rahman, Ashifur Rahman, Vishwanath Akuthota,
+      <strong>Abhijit Kumar Ghosh</strong>, Md Maruf Hasan Khondaker, Muntasim Ul Haque,
+      Montaser Abdul Quader, and Md Tanzim Reza.
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Event:</span>
+      2026 IEEE International Conference on Electrical, Computer &amp; Telecommunication Engineering
+      <strong>(ICECTE 2026)</strong>
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Venue:</span>
+      Rajshahi University of Engineering &amp; Technology, Rajshahi, Bangladesh
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Date:</span>
+      29&ndash;31 January 2026
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Paper ID:</span>
+      383
+    </p>
+    <span class="talk-status">Accepted and Presented | Proceedings published in IEEE Xplore</span>
+  </div>
+
+  <div class="talk-card">
+    <h3>Tea Leaf Disease Classification and Out-of-Distribution Detection Using Deep Learning</h3>
+    <p class="talk-meta">
+      <span class="talk-label">Authors:</span>
+      Anika Islam, Md Ahasanul Arafath, <strong>Abhijit Kumar Ghosh</strong>,
+      Tawsif Mustasin Rafin, Turjoy Das, Simantha Saha, Fateha Jannat Ayrin, and Mizanur Rahman.
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Event:</span>
+      2025 IEEE International Women in Engineering Conference on Electrical and Computer Engineering
+      <strong>(WIECON-ECE 2025)</strong>
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Venue:</span>
+      Cox's Bazar, Bangladesh
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Date:</span>
+      21&ndash;22 December 2025
+    </p>
+    <span class="talk-status">Presented</span>
+  </div>
+
+  <div class="talk-card">
+    <h3>Comparative Multivariate Time Series Forecasting of IMU Based Gait Data for Parkinson's Disease Using VAR, LSTM, and GRU Models</h3>
+    <p class="talk-meta">
+      <span class="talk-label">Authors:</span>
+      Md Ahasanul Arafath, Md Tanzim Reza, Md. Hasan Moon, Simantha Saha,
+      Sadia Shobnom, Md Rony Ahmed, and <strong>Abhijit Kumar Ghosh</strong>.
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Event:</span>
+      International Conference on Intelligent Data Analysis and Applications
+      <strong>(IDAA 2025)</strong>
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Venue:</span>
+      Daffodil International University, Dhaka, Bangladesh
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Date:</span>
+      12&ndash;13 December 2025
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Paper ID:</span>
+      10382
+    </p>
+    <span class="talk-status">Accepted and Presented</span>
+  </div>
+
+  <div class="talk-card">
+    <h3>PaperNet: Efficient Temporal Convolutions and Channel Residual Attention for EEG Epilepsy Detection</h3>
+    <p class="talk-meta">
+      <span class="talk-label">Authors:</span>
+      Md Shahriar Sajid, <strong>Abhijit Kumar Ghosh</strong>, and Fariha Nusrat.
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Event:</span>
+      International Conference on Intelligent Data Analysis and Applications
+      <strong>(IDAA 2025)</strong>
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Venue:</span>
+      Daffodil International University, Dhaka, Bangladesh
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Date:</span>
+      12&ndash;13 December 2025
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Paper ID:</span>
+      10497
+    </p>
+    <span class="talk-status">Accepted and Presented</span>
+  </div>
+
+  <div class="talk-card">
+    <h3>Consensus with LLMs: CoT-Arbitrated Byzantine Fault Tolerance in Network Intrusion Detection</h3>
+    <p class="talk-meta">
+      <span class="talk-label">Authors:</span>
+      Fateha Jannat Ayrin, Md Mizanur Rahman, Mozdaher Abdul Quader, Vishwanath Akuthota,
+      Mehedi Hasan Jony, Md Maruf Hasan Khondaker, Nur A Shawal, Montaser Abdul Quader,
+      and <strong>Abhijit Kumar Ghosh</strong>.
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Event:</span>
+      International Conference on Intelligent Data Analysis and Applications
+      <strong>(IDAA 2025)</strong>
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Venue:</span>
+      Daffodil International University, Dhaka, Bangladesh
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Date:</span>
+      12&ndash;13 December 2025
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Paper ID:</span>
+      10791
+    </p>
+    <span class="talk-status">Accepted and Presented</span>
+  </div>
+
+  <div class="talk-card">
+    <h3>Swin Transformer-Based Multi-Class Classification of Gallbladder Diseases: A Comparative Study with Lightweight CNNs</h3>
+    <p class="talk-meta">
+      <span class="talk-label">Authors:</span>
+      <strong>Abhijit Kumar Ghosh</strong>, Chowdhury Sajadul Islam, Mohammad Azim,
+      Fariha Nusrat, Md. Ahasanul Arafath, and Md Tanzim Reza.
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Event:</span>
+      2nd Undergraduate Conference on Intelligent Computing and Systems
+      <strong>(UCICS 2026)</strong>
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Venue:</span>
+      Varendra University, Rajshahi, Bangladesh
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Date:</span>
+      17&ndash;18 January 2026
+    </p>
+    <p class="talk-meta">
+      <span class="talk-label">Paper ID:</span>
+      18
+    </p>
+    <span class="talk-status">Presented</span>
+  </div>
+
+  <h2 class="talk-section">Presentation Themes</h2>
+
+  <p>
+    <span class="tag">Computer Vision</span>
+    <span class="tag">Medical Image Analysis</span>
+    <span class="tag">Trustworthy AI</span>
+    <span class="tag">Multimodal AI</span>
+    <span class="tag">Vision-Language Models</span>
+    <span class="tag">Time-Series Forecasting</span>
+    <span class="tag">EEG Analysis</span>
+    <span class="tag">AI for Cybersecurity</span>
+    <span class="tag">Disease Classification</span>
+  </p>
+
+</div>
