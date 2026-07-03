@@ -1,455 +1,208 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Research Profile"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /md/
   - /markdown.html
 ---
 
-{% include toc %}
+This page provides a concise overview of my academic profile, research focus, technical interests, and selected areas of scholarly work.
 
-## Locations of key files/directories
+## Research Identity
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+I am **Abhijit Kumar Ghosh**, Lecturer in the **Department of Computer Science and Engineering at the European University of Bangladesh**. My academic work focuses on artificial intelligence, applied machine learning, computer vision, medical image analysis, trustworthy AI, multimodal AI, and time-series forecasting.
 
-## Tips and hints
+My research aims to develop intelligent and practical AI-based systems that can support real-world decision-making in healthcare, education, cybersecurity, and data-driven applications.
 
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version GitHub built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
+[Google Scholar](https://scholar.google.com/citations?user=NoTxxDQAAAAJ&hl=en&oi=ao){: .btn .btn--primary}
+[ResearchGate](https://www.researchgate.net/profile/Abhijit-Ghosh-28?ev=hdr_xprf){: .btn .btn--primary}
+[ORCID](https://orcid.org/0009-0006-6633-4849){: .btn .btn--primary}
+[GitHub](https://github.com/abhijitkghosh){: .btn .btn--primary}
 
-* Academic Pages uses [Jekyll Kramdown](https://jekyllrb.com/docs/configuration/markdown/), GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences. 
-  * Some of emoji supported on GitHub should be supposed via the [Jemoji](https://github.com/jekyll/jemoji) plugin :computer:.
-  * The best list of the supported emoji can be found in the [Emojis for Jekyll via Jemoji](https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#computer) blog post.
-
-* While GitHub Pages prevents server side code from running, client-side scripts are supported.
-  * This means that Google Analytics is supported, and [the wiki](https://github.com/academicpages/academicpages.github.io/wiki/Adding-Google-Analytics) should contain the most up-to-date information on getting it working.
-
-* Your CV can be written using either Markdown ([preview](https://academicpages.github.io/cv/)) or generated via JSON ([preview](https://academicpages.github.io/cv-json/)) and the layouts are slightly different. You can update the path to the one being used in `_data/navigation.yml` with the JSON formatted CV being hidden by default.
-
- * The [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/) is a useful guide for those that want to add functionality to the template or to become contributors to the [template on GitHub](https://github.com/academicpages/academicpages.github.io).
-
-## MathJax 
-
-Support for MathJax (version 3.* via [jsDelivr](https://www.jsdelivr.com/), [documentation](https://docs.mathjax.org/en/latest/)) is included in the template:
-
-$$
-\displaylines{
-\nabla \cdot E= \frac{\rho}{\epsilon_0} \\\
-\nabla \cdot B=0 \\\
-\nabla \times E= -\partial_tB \\\
-\nabla \times B  = \mu_0 \left(J + \varepsilon_0 \partial_t E \right)
-}
-$$
-
-The default delimiters of `$$...$$` and `\\[...\\]` are supported for displayed mathematics, while `\\(...\\)` should be used for in-line mathematics (ex., \\(a^2 + b^2 = c^2\\))
-
-**Note** that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although [some workarounds exist](https://math.codidact.com/posts/278763/278772#answer-278772). In some cases, such as when you are including MathJax in a `citation` field for publications, it may be necessary to use `\(...\)` for inline delineation.
-
-## Mermaid diagrams
-Academic Pages includes support for [Mermaid diagrams](https://mermaid.js.org/) (version 11.* via [jsDelivr](https://www.jsdelivr.com/)) and in addition to their [tutorials](https://mermaid.js.org/ecosystem/tutorials.html) and [GitHub documentation](https://github.com/mermaid-js/mermaid) the basic syntax is as follows:
-
-```markdown
-    ```mermaid
-    graph LR
-    A-->B
-    ```
-```
-
-Which produces the following plot with the [default theme](https://mermaid.js.org/config/theming.html) applied:
-
-```mermaid
-graph LR
-A-->B
-```
-
-While a more advanced plot with the `forest` theme applied looks like the following:
-
-```mermaid
 ---
-config:
-  theme: 'forest'
+
+## Core Research Areas
+
+My current research interests include:
+
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Medical Image Analysis
+- Trustworthy and Explainable AI
+- Multimodal AI
+- Time-Series Forecasting
+- Applied Data Science
+- AI for Healthcare
+- AI-Based Decision Support Systems
+
 ---
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-## Plotly
-Academic Pages includes support for Plotly diagrams via a hook in the Markdown code elements, although those that are comfortable with HTML and JavaScript can also access it directly [via those routes](https://plotly.com/javascript/getting-started/). Plotly is included via an `npm` [package](https://www.npmjs.com/package/plotly.js?activeTab=readme) and is lazy loading is used in the template to retrieve the minimized JavaScript via a content delivery network (CDN) when a plot needs to be rendered on a page in the template.
-
-In order to render a Plotly plot via Markdown the relevant plot data need to be added as follows:
-
-```markdown
-    ```plotly
-    {
-      "data": [
-        {
-          "x": [1, 2, 3, 4],
-          "y": [10, 15, 13, 17],
-          "type": "scatter"
-        },
-        {
-          "x": [1, 2, 3, 4],
-          "y": [16, 5, 11, 9],
-          "type": "scatter"
-        }
-      ]
-    }
-    ```
-```
-
-**Important!** Since the data is parsed as JSON *all* of the keys will need to be quoted for the plot to render. The use of a tool like [JSONLint](https://jsonlint.com/) to check syntax is highly recommended.
-{: .notice}
-
-Which produces the following:
-```plotly
-{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}
-```
-
-Essentially what is taking place is that the [Plotly attributes](https://plotly.com/javascript/reference/index/) are being taken from the code block as JSON data, parsed, and passed to Plotly along with a theme that matches the current site theme (i.e., a light theme, or a dark theme). This allows all plots that can be described via the `data` attribute to rendered with some limitations for the theme of the plot.
-
-```plotly
-{
-  "data": [
-    {
-      "x": [1, 2, 3, 4, 5],
-      "y": [1, 6, 3, 6, 1],
-      "mode": "markers",
-      "type": "scatter",
-      "name": "Team A",
-      "text": ["A-1", "A-2", "A-3", "A-4", "A-5"],
-      "marker": { "size": 12 }
-    },
-    {
-      "x": [1.5, 2.5, 3.5, 4.5, 5.5],
-      "y": [4, 1, 7, 1, 4],
-      "mode": "markers",
-      "type": "scatter",
-      "name": "Team B",
-      "text": ["B-a", "B-b", "B-c", "B-d", "B-e"],
-      "marker": { "size": 12 }
-    }    
-  ],
-  "layout": {
-    "xaxis": {
-      "range": [ 0.75, 5.25 ]
-    },
-    "yaxis": {
-      "range": [0, 8]
-    },
-    "title": {"text": "Data Labels Hover"}
-  }
-}
-```
-
-```plotly
-{
-  "data": [{
-      "x": [1, 2, 3],
-      "y": [4, 5, 6],
-      "type": "scatter"
-    },
-    {
-      "x": [20, 30, 40],
-      "y": [50, 60, 70],
-      "xaxis": "x2",
-      "yaxis": "y2",
-      "type": "scatter"
-  }],
-  "layout": {
-    "grid": {
-      "rows": 1,
-      "columns": 2,
-      "pattern": "independent"
-    },
-    "title": {
-      "text": "Simple Subplot"
-    }    
-  }
-}
-```
-
-```plotly
-{
-  "data": [{
-		"z": [[10, 10.625, 12.5, 15.625, 20],
-          [5.625, 6.25, 8.125, 11.25, 15.625],
-          [2.5, 3.125, 5.0, 8.125, 12.5],
-          [0.625, 1.25, 3.125, 6.25, 10.625],
-          [0, 0.625, 2.5, 5.625, 10]],
-		"type": "contour"
-	}],
-  "layout": {
-    "title": {
-      "text": "Basic Contour Plot"
-    }
-  }
-}
-```
-
-## Markdown guide
-
-Academic Pages uses [kramdown](https://kramdown.gettalong.org/index.html) for Markdown rendering, which has some differences from other Markdown implementations such as GitHub's. In addition to this guide, please see the [kramdown Syntax page](https://kramdown.gettalong.org/syntax.html) for full documentation.  
-
-### Header three
-
-#### Header four
-
-##### Header five
-
-###### Header six
-
-## Blockquotes
-
-Single line blockquote:
-
-> Quotes are cool.
-
-## Tables
 
-### Table 1
+## Research Themes
 
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+### Medical Image Analysis and Healthcare AI
 
-### Table 2
+A major part of my research focuses on applying deep learning and computer vision to healthcare-related problems. My work includes disease classification, medical image interpretation, and AI-assisted diagnostic support.
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
+Selected areas include:
 
-## Definition Lists
+- Breast cancer histopathology analysis
+- Gallbladder disease classification
+- EEG-based epilepsy detection
+- Parkinson’s disease gait forecasting
+- Trustworthy AI for healthcare applications
 
-Definition List Title
-:   Definition list division.
+### Computer Vision and Deep Learning
 
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+My work also explores computer vision models for classification, detection, and out-of-distribution recognition. I am interested in building models that are accurate, robust, and practically useful.
 
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
+Selected areas include:
 
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+- Image classification
+- Vision transformers
+- Out-of-distribution detection
+- Lightweight CNN comparison
+- Feature extraction and model evaluation
 
-## Unordered Lists (Nested)
+### Trustworthy and Multimodal AI
 
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
+I am interested in AI systems that combine multiple forms of information and support more reliable reasoning. This includes the use of vision-language models, LLM reasoning, and adversarial protection strategies.
 
-## Ordered List (Nested)
+Selected areas include:
 
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
+- Multimodal AI
+- Vision-language models
+- LLM-assisted reasoning
+- Trustworthy AI
+- Adversarial protection
+- AI-based peer-review protection
 
-## Buttons
+### AI for Cybersecurity
 
-Make any link standout more when applying the `.btn` class.
+My research also includes AI-based security applications, especially phishing detection, network intrusion detection, and intelligent decision-making systems for cyber-risk analysis.
 
-## Notices
+Selected areas include:
 
-Basic notices or call-outs are supported using the following syntax:
+- Phishing detection
+- Network intrusion detection
+- Byzantine fault tolerance
+- LLM-based cybersecurity reasoning
 
-```markdown
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
-```
+---
 
-which wil render as:
+## Selected Research Works
 
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
+### Histo-MExNet
 
-### Footnotes
+**Histo-MExNet: A Unified Framework for Real-World, Cross-Magnification, and Trustworthy Breast Cancer Histopathology**  
+This work focuses on trustworthy breast cancer histopathology analysis across real-world and cross-magnification conditions.
 
-Footnotes can be useful for clarifying points in the text, or citing information.[^1] Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
+### Multi-Agent Phishing Detection
 
-```markdown
-This is the regular text.[^1] This is more regular text.[^note]
+**Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning**  
+This work explores multimodal and reasoning-based approaches for phishing detection and deletion.
 
-[^1]: This is the footnote itself.
-[^note]: This is another footnote.
-```
+### Gallbladder Disease Classification
 
-[^1]: Such as this footnote.
-[^note]: When using text for footnotes markers, no spaces are permitted in the name.
+**Swin Transformer-Based Multi-Class Classification of Gallbladder Diseases: A Comparative Study with Lightweight CNNs**  
+This work compares transformer-based and lightweight CNN-based approaches for gallbladder disease classification.
 
-## HTML Tags
+### Parkinson’s Disease Gait Forecasting
 
-### Address Tag
+**Comparative Multivariate Time Series Forecasting of IMU Based Gait Data for Parkinson's Disease Using VAR, LSTM, and GRU Models**  
+This work investigates time-series forecasting models for IMU-based gait data related to Parkinson’s disease.
 
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
+### EEG Epilepsy Detection
 
-### Anchor Tag (aka. Link)
+**PaperNet: Efficient Temporal Convolutions and Channel Residual Attention for EEG Epilepsy Detection**  
+This work focuses on EEG-based epilepsy detection using efficient temporal convolution and attention-based modeling.
 
-This is an example of a [link](https://github.com "GitHub").
+---
 
-### Abbreviation Tag
+## Methods and Tools
 
-The abbreviation CSS stands for "Cascading Style Sheets".
+My research commonly involves:
 
-*[CSS]: Cascading Style Sheets
+- Data preprocessing and feature engineering
+- Deep learning model development
+- Experimental design
+- Model comparison and benchmarking
+- Performance evaluation
+- Statistical analysis
+- Explainability and interpretability considerations
 
-### Cite Tag
+Technical tools and frameworks include:
 
-"Code is poetry." ---<cite>Automattic</cite>
+- Python
+- PyTorch
+- TensorFlow
+- Scikit-learn
+- OpenCV
+- Jupyter Notebook
+- Google Colab
+- LaTeX
+- Git
 
-### Code Tag
+---
 
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
+## Teaching and Academic Work
 
-You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:
+I currently teach undergraduate courses in computer science and engineering. My teaching areas include:
 
-```python
-print('Hello World!')
-```
+- Object-Oriented Programming
+- Digital Logic Design
+- Software Engineering
+- Artificial Intelligence
+- Image Processing
+- Theory of Computing
+- Computer Fundamentals
 
-or R:
+My teaching approach focuses on conceptual clarity, practical implementation, and connecting theoretical ideas with real-world computing problems.
 
-```R
-print("Hello World!", quote = FALSE)
-```
+---
 
-### Details Tag (collapsible sections)
+## Academic Service
 
-The HTML `<details>` tag works well with Markdown and allows you to include collapsible sections, see [W3Schools](https://www.w3schools.com/tags/tag_details.asp) for more information on how to use the tag.
+I served as a reviewer for **Deep Learning IndabaX Nigeria 2026**, reviewing submissions in:
 
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
+- Computer Vision and Multimodal AI
+- AI for Health and Biomedical Applications
+- Distributed, Federated, and Privacy-Preserving AI
 
-The source code:
+This experience reflects my interest in supporting rigorous and inclusive AI research communities.
 
-```html
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
-```
+---
 
-Or, you can leave a section open by default by including the `open` attribute in the tag:
+## Selected Projects
 
-<details open>
-  <summary>Open by default</summary>
-  This section is open by default thanks to open in the &lt;details open&gt; tag!
-</details>
+### AI-Based Grade Prediction System
 
+A machine learning-based system for predicting student academic performance using indicators such as quizzes, attendance, assignments, and participation.
 
-### Emphasize Tag
+### Bangla Language Developing System
 
-The emphasize tag should _italicize_ text.
+A proposed Bangla language learning and assessment platform designed to support education and job-sector examination preparation in Bangladesh.
 
-### Insert Tag
+### Fire Alarm System in Farm
 
-This tag should denote <ins>inserted</ins> text.
+An Arduino Nano-based early-warning system for detecting fire hazards in farm environments.
 
-### Keyboard Tag
+---
 
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
+## Collaboration Interests
 
-### Preformatted Tag
+I am open to academic collaboration in areas related to:
 
-This tag styles large blocks of code.
+- AI for healthcare
+- Medical image analysis
+- Computer vision
+- Trustworthy and explainable AI
+- Multimodal AI
+- Time-series forecasting
+- AI for cybersecurity
+- Applied data science
 
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
+For collaboration or academic communication, please contact me through my email or academic profiles.
 
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strike Tag
-
-This tag will let you <strike>strikeout text</strike>.
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
-
-***
-**Footnotes**
-
-The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
-
+**Email:** [abhijit.kumar.ghosh.77880@gmail.com](mailto:abhijit.kumar.ghosh.77880@gmail.com)
