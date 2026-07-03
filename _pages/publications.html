@@ -1,26 +1,48 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Portfolio"
+permalink: /portfolio/
 author_profile: true
 ---
 
 <style>
-  .pub-page {
+  .portfolio-page {
     line-height: 1.65;
     font-size: 1em;
   }
 
-  .pub-intro {
-    margin-bottom: 22px;
-    padding: 18px 20px;
+  .portfolio-page p,
+  .portfolio-page li,
+  .portfolio-page h2,
+  .portfolio-page h3,
+  .portfolio-page strong,
+  .portfolio-page em {
+    color: #222222 !important;
+  }
+
+  .portfolio-hero {
+    margin-bottom: 28px;
+    padding: 24px 26px;
     background: #f7f9fb;
     border-left: 5px solid #2f7f95;
-    border-radius: 4px;
+    border-radius: 8px;
+    border: 1px solid #e3eaee;
+  }
+
+  .portfolio-hero h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.45em;
+    color: #222222 !important;
+  }
+
+  .portfolio-hero p {
+    margin-bottom: 10px;
+    color: #333333 !important;
   }
 
   .profile-buttons {
-    margin: 18px 0 32px 0;
+    margin-top: 18px;
   }
 
   .profile-buttons a {
@@ -40,199 +62,314 @@ author_profile: true
     text-decoration: none;
   }
 
-  .pub-section {
-    margin-top: 34px;
+  .portfolio-section {
+    margin-top: 36px;
     margin-bottom: 20px;
     padding-bottom: 7px;
     border-bottom: 2px solid #e4e4e4;
-    color: #333333;
+    color: #ffffff !important;
   }
 
-  .publication-item {
-    margin-bottom: 28px;
-    padding: 18px 20px;
+  .project-card {
+    margin-bottom: 26px;
+    padding: 20px 22px;
     border: 1px solid #e8e8e8;
-    border-radius: 6px;
+    border-radius: 8px;
     background: #ffffff;
   }
 
-  .publication-item h3 {
+  .project-card h3 {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 1.05em;
-    color: #222222;
+    font-size: 1.12em;
+    color: #222222 !important;
   }
 
-  .authors {
-    margin-bottom: 8px;
+  .project-card p {
+    color: #333333 !important;
   }
 
-  .venue {
-    margin-bottom: 8px;
-    color: #444444;
-  }
-
-  .pub-meta {
+  .project-card ul {
+    margin-top: 8px;
     margin-bottom: 0;
-    font-size: 0.95em;
-    color: #555555;
+  }
+
+  .project-card li {
+    margin-bottom: 5px;
+    color: #333333 !important;
+  }
+
+  .meta-line {
+    margin-bottom: 8px;
+    color: #444444 !important;
+  }
+
+  .meta-label {
+    font-weight: 700;
+    color: #222222 !important;
   }
 
   .tag {
     display: inline-block;
     background-color: #f2f5f7;
     border: 1px solid #d9e2e7;
+    color: #222222 !important;
     padding: 4px 9px;
     margin: 4px 5px 4px 0;
     border-radius: 4px;
     font-size: 0.85em;
+    font-weight: 600;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 14px;
+    margin-top: 16px;
+  }
+
+  .skill-box {
+    padding: 14px 16px;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+  }
+
+  .skill-box h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #222222 !important;
+  }
+
+  .skill-box p {
+    margin-bottom: 0;
+    color: #333333 !important;
   }
 </style>
 
-<div class="pub-page">
+<div class="portfolio-page">
 
-  <div class="pub-intro">
+  <div class="portfolio-hero">
+    <h2>Research and Project Portfolio</h2>
+
     <p>
-      This page presents the journal articles, preprints, conference publications, conference presentations, and ongoing submissions of
-      <strong>Abhijit Kumar Ghosh</strong>. His research focuses on
-      <strong>Machine Learning, Deep Learning, Computer Vision, Medical Image Analysis, Trustworthy AI, Multimodal AI, Time-Series Forecasting, and Applied Data Science</strong>.
+      This portfolio presents selected academic, research, and development work by
+      <strong>Abhijit Kumar Ghosh</strong>, Lecturer in the Department of Computer Science and Engineering
+      at the European University of Bangladesh.
+    </p>
+
+    <p>
+      The portfolio reflects work in <strong>Machine Learning, Deep Learning, Computer Vision,
+      Medical Image Analysis, Trustworthy AI, Multimodal AI, Time-Series Forecasting, Applied Data Science,
+      and AI-based decision support systems</strong>.
+    </p>
+
+    <div class="profile-buttons">
+      <a href="/publications/">Publications</a>
+      <a href="/cv/">CV</a>
+      <a href="https://scholar.google.com/citations?user=NoTxxDQAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+      <a href="https://github.com/abhijitkghosh" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </div>
+
+  <h2 class="portfolio-section">Selected Projects</h2>
+
+  <div class="project-card">
+    <h3>AI-Based Grade Prediction System</h3>
+
+    <p class="meta-line">
+      <span class="meta-label">Type:</span> Machine Learning / Educational Data Mining
+    </p>
+
+    <p>
+      This project focused on predicting student academic performance using educational indicators
+      such as quizzes, attendance, assignments, and class participation. The purpose of the system
+      was to identify students who may need early academic support.
+    </p>
+
+    <ul>
+      <li>Built a machine learning-based grade prediction system.</li>
+      <li>Used academic indicators to analyze student performance patterns.</li>
+      <li>Applied Python, scikit-learn, and SQL Server for data analysis and model development.</li>
+      <li>Designed the project to support data-driven academic decision-making.</li>
+    </ul>
+
+    <p>
+      <span class="tag">Machine Learning</span>
+      <span class="tag">Educational Data Mining</span>
+      <span class="tag">Python</span>
+      <span class="tag">Scikit-learn</span>
+      <span class="tag">SQL Server</span>
     </p>
   </div>
 
-  <div class="profile-buttons">
-    <a href="https://scholar.google.com/citations?user=NoTxxDQAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-    <a href="https://www.researchgate.net/profile/Abhijit-Ghosh-28?ev=hdr_xprf" target="_blank" rel="noopener noreferrer">ResearchGate</a>
-    <a href="https://orcid.org/0009-0006-6633-4849" target="_blank" rel="noopener noreferrer">ORCID</a>
-  </div>
+  <div class="project-card">
+    <h3>Bangla Language Developing System</h3>
 
-  <h2 class="pub-section">Journal Articles / Preprints</h2>
+    <p class="meta-line">
+      <span class="meta-label">Type:</span> Language Learning / Educational Technology
+    </p>
 
-  <div class="publication-item">
-    <h3>Histo-MExNet: A Unified Framework for Real-World, Cross-Magnification, and Trustworthy Breast Cancer Histopathology</h3>
-    <p class="authors">
-      Enam Ahmed Taufika, Md Ahasanul Arafath, <strong>Abhijit Kumar Ghosh</strong>, Md Tanzim Reza, and Md Ashad Alam.
+    <p>
+      This project proposed a dedicated Bangla language learning and assessment platform.
+      The system was designed to support students, learners, and job-sector examination candidates
+      in Bangladesh.
     </p>
-    <p class="venue">
-      <em>arXiv preprint arXiv:2603.14416</em>, 2026.
-    </p>
-    <p class="pub-meta">
-      Submitted to <em>Biomedical Signal Processing and Control</em>.
-    </p>
-  </div>
 
-  <h2 class="pub-section">Conference Publications and Presentations</h2>
+    <ul>
+      <li>Designed the idea for a Bangla-focused learning and assessment platform.</li>
+      <li>Focused on education and job-sector examination preparation.</li>
+      <li>Proposed structured support for language learning and evaluation.</li>
+    </ul>
 
-  <div class="publication-item">
-    <h3>Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning</h3>
-    <p class="authors">
-      Fateha Jannat Ayrin, Mizanur Rahman, Ashifur Rahman, Vishwanath Akuthota, <strong>Abhijit Kumar Ghosh</strong>, Md Maruf Hasan Khondaker, Muntasim Ul Haque, Montaser Abdul Quader, and Md Tanzim Reza.
-    </p>
-    <p class="venue">
-      Accepted and presented at the <em>2026 IEEE International Conference on Electrical, Computer &amp; Telecommunication Engineering (ICECTE 2026)</em>, Rajshahi University of Engineering &amp; Technology, Rajshahi, Bangladesh, 29&ndash;31 January 2026.
-    </p>
-    <p class="pub-meta">
-      <strong>Paper ID:</strong> 383. Proceedings published in <strong>IEEE Xplore</strong>.
+    <p>
+      <span class="tag">Bangla Language</span>
+      <span class="tag">Educational Technology</span>
+      <span class="tag">Assessment System</span>
+      <span class="tag">Learning Platform</span>
     </p>
   </div>
 
-  <div class="publication-item">
-    <h3>Tea Leaf Disease Classification and Out-of-Distribution Detection Using Deep Learning</h3>
-    <p class="authors">
-      Anika Islam, Md Ahasanul Arafath, <strong>Abhijit Kumar Ghosh</strong>, Tawsif Mustasin Rafin, Turjoy Das, Simantha Saha, Fateha Jannat Ayrin, and Mizanur Rahman.
+  <div class="project-card">
+    <h3>Fire Alarm System in Farm</h3>
+
+    <p class="meta-line">
+      <span class="meta-label">Type:</span> Embedded System / Safety Monitoring
     </p>
-    <p class="venue">
-      Presented at the <em>2025 IEEE International Women in Engineering Conference on Electrical and Computer Engineering (WIECON-ECE 2025)</em>, Cox's Bazar, Bangladesh, 21&ndash;22 December 2025.
+
+    <p>
+      This project involved developing an Arduino Nano-based fire alarm system for farm environments.
+      The goal was to support early fire hazard detection and improve safety response in agricultural settings.
+    </p>
+
+    <ul>
+      <li>Developed an early warning fire alarm system using Arduino Nano.</li>
+      <li>Focused on farm and agricultural safety monitoring.</li>
+      <li>Designed the system for simple and practical fire hazard detection.</li>
+    </ul>
+
+    <p>
+      <span class="tag">Arduino Nano</span>
+      <span class="tag">Embedded System</span>
+      <span class="tag">IoT</span>
+      <span class="tag">Safety Monitoring</span>
     </p>
   </div>
 
-  <div class="publication-item">
-    <h3>Comparative Multivariate Time Series Forecasting of IMU Based Gait Data for Parkinson's Disease Using VAR, LSTM, and GRU Models</h3>
-    <p class="authors">
-      Md Ahasanul Arafath, Md Tanzim Reza, Md. Hasan Moon, Simantha Saha, Sadia Shobnom, Md Rony Ahmed, and <strong>Abhijit Kumar Ghosh</strong>.
+  <h2 class="portfolio-section">Research-Oriented Works</h2>
+
+  <div class="project-card">
+    <h3>Histo-MExNet: Trustworthy Breast Cancer Histopathology Analysis</h3>
+
+    <p class="meta-line">
+      <span class="meta-label">Research Area:</span> Medical Image Analysis / Trustworthy AI
     </p>
-    <p class="venue">
-      Accepted and presented at the <em>International Conference on Intelligent Data Analysis and Applications (IDAA 2025)</em>, Daffodil International University, Dhaka, Bangladesh, 12&ndash;13 December 2025.
+
+    <p>
+      This work focuses on real-world, cross-magnification, and trustworthy breast cancer histopathology
+      analysis. It reflects my research interest in medical imaging, deep learning, and reliable AI systems
+      for healthcare applications.
     </p>
-    <p class="pub-meta">
-      <strong>Paper ID:</strong> 10382.
+
+    <p>
+      <span class="tag">Medical Image Analysis</span>
+      <span class="tag">Breast Cancer</span>
+      <span class="tag">Deep Learning</span>
+      <span class="tag">Trustworthy AI</span>
     </p>
   </div>
 
-  <div class="publication-item">
-    <h3>PaperNet: Efficient Temporal Convolutions and Channel Residual Attention for EEG Epilepsy Detection</h3>
-    <p class="authors">
-      Md Shahriar Sajid, <strong>Abhijit Kumar Ghosh</strong>, and Fariha Nusrat.
+  <div class="project-card">
+    <h3>Swin Transformer-Based Gallbladder Disease Classification</h3>
+
+    <p class="meta-line">
+      <span class="meta-label">Research Area:</span> Computer Vision / Medical Imaging
     </p>
-    <p class="venue">
-      Accepted and presented at the <em>International Conference on Intelligent Data Analysis and Applications (IDAA 2025)</em>, Daffodil International University, Dhaka, Bangladesh, 12&ndash;13 December 2025.
+
+    <p>
+      This research work explored multi-class gallbladder disease classification using a Swin Transformer-based
+      approach and compared it with lightweight convolutional neural network models.
     </p>
-    <p class="pub-meta">
-      <strong>Paper ID:</strong> 10497.
+
+    <p>
+      <span class="tag">Swin Transformer</span>
+      <span class="tag">Computer Vision</span>
+      <span class="tag">Disease Classification</span>
+      <span class="tag">Medical AI</span>
     </p>
   </div>
 
-  <div class="publication-item">
-    <h3>Consensus with LLMs: CoT-Arbitrated Byzantine Fault Tolerance in Network Intrusion Detection</h3>
-    <p class="authors">
-      Fateha Jannat Ayrin, Md Mizanur Rahman, Mozdaher Abdul Quader, Vishwanath Akuthota, Mehedi Hasan Jony, Md Maruf Hasan Khondaker, Nur A Shawal, Montaser Abdul Quader, and <strong>Abhijit Kumar Ghosh</strong>.
+  <div class="project-card">
+    <h3>Multimodal Phishing Detection Using VLM and LLM Reasoning</h3>
+
+    <p class="meta-line">
+      <span class="meta-label">Research Area:</span> Multimodal AI / Cybersecurity
     </p>
-    <p class="venue">
-      Accepted and presented at the <em>International Conference on Intelligent Data Analysis and Applications (IDAA 2025)</em>, Daffodil International University, Dhaka, Bangladesh, 12&ndash;13 December 2025.
+
+    <p>
+      This work investigated phishing detection and deletion using small vision-language models and
+      large language model reasoning. It connects multimodal AI with cybersecurity and trustworthy
+      decision-making.
     </p>
-    <p class="pub-meta">
-      <strong>Paper ID:</strong> 10791.
+
+    <p>
+      <span class="tag">Multimodal AI</span>
+      <span class="tag">Vision-Language Models</span>
+      <span class="tag">LLM Reasoning</span>
+      <span class="tag">Cybersecurity</span>
     </p>
   </div>
 
-  <div class="publication-item">
-    <h3>Swin Transformer-Based Multi-Class Classification of Gallbladder Diseases: A Comparative Study with Lightweight CNNs</h3>
-    <p class="authors">
-      <strong>Abhijit Kumar Ghosh</strong>, Chowdhury Sajadul Islam, Mohammad Azim, Fariha Nusrat, Md. Ahasanul Arafath, and Md Tanzim Reza.
-    </p>
-    <p class="venue">
-      Presented at the <em>2nd Undergraduate Conference on Intelligent Computing and Systems (UCICS 2026)</em>, Varendra University, Rajshahi, Bangladesh, 17&ndash;18 January 2026.
-    </p>
-    <p class="pub-meta">
-      <strong>Paper ID:</strong> 18.
-    </p>
+  <h2 class="portfolio-section">Technical Competencies</h2>
+
+  <div class="portfolio-grid">
+    <div class="skill-box">
+      <h3>Programming</h3>
+      <p>Python, Java, C++, C#</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Machine Learning</h3>
+      <p>PyTorch, TensorFlow, Scikit-learn, OpenCV</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Research Skills</h3>
+      <p>Data preprocessing, feature engineering, model development, experimental design, performance evaluation</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Database and Web</h3>
+      <p>MySQL, Oracle, HTML, CSS, JavaScript, Apache Web Server</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Academic Tools</h3>
+      <p>LaTeX, Git, Jupyter Notebook, Google Colab</p>
+    </div>
+
+    <div class="skill-box">
+      <h3>Research Domains</h3>
+      <p>Medical Image Analysis, Trustworthy AI, Multimodal AI, Time-Series Forecasting, Applied Data Science</p>
+    </div>
   </div>
 
-  <h2 class="pub-section">Ongoing Conference Submissions</h2>
-
-  <div class="publication-item">
-    <h3>PDFGuard: Multi-Layer Adversarial Protection Against AI-Based Automated Peer Review</h3>
-    <p class="venue">
-      Submitted to the <em>IEEE International Conference on Signal Processing, Information, Communication and Systems (SPICSCON 2026)</em>.
-    </p>
-  </div>
-
-  <div class="publication-item">
-    <h3>ET-AMAF: Adaptive Multi-View Transformer for Banknote Detection</h3>
-    <p class="venue">
-      Submitted to the <em>IEEE International Conference on Signal Processing, Information, Communication and Systems (SPICSCON 2026)</em>.
-    </p>
-  </div>
-
-  <div class="publication-item">
-    <h3>Reasoning Vision-Language Models for Multimodal Political Discourse and Bot Detection</h3>
-    <p class="venue">
-      Under review at the <em>2026 International Conference on Engineering and Frontier Technologies</em>.
-    </p>
-  </div>
-
-  <h2 class="pub-section">Research Areas Reflected in These Publications</h2>
+  <h2 class="portfolio-section">Portfolio Focus</h2>
 
   <p>
-    <span class="tag">Medical Image Analysis</span>
-    <span class="tag">Breast Cancer Histopathology</span>
+    <span class="tag">Machine Learning</span>
     <span class="tag">Deep Learning</span>
     <span class="tag">Computer Vision</span>
-    <span class="tag">Multimodal AI</span>
-    <span class="tag">Vision-Language Models</span>
-    <span class="tag">EEG-Based Disease Detection</span>
-    <span class="tag">Time-Series Forecasting</span>
+    <span class="tag">Medical Image Analysis</span>
     <span class="tag">Trustworthy AI</span>
+    <span class="tag">Multimodal AI</span>
+    <span class="tag">Time-Series Forecasting</span>
+    <span class="tag">Applied Data Science</span>
+    <span class="tag">AI for Healthcare</span>
     <span class="tag">AI for Cybersecurity</span>
+    <span class="tag">Educational Technology</span>
+    <span class="tag">Embedded Systems</span>
   </p>
 
 </div>
