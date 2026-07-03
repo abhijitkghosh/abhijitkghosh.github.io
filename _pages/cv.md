@@ -18,7 +18,7 @@ redirect_from:
 **Email:** [abhijit.kumar.ghosh.77880@gmail.com](mailto:abhijit.kumar.ghosh.77880@gmail.com)  
 **Location:** Dhaka, Bangladesh  
 
-[Download CV]({{ base_path }}/files/Abhijit_Kumar_Ghosh_CV.pdf){: .btn .btn--primary}
+[Download CV]({{ base_path }}/files/Abhijit_Kumar_Ghosh_Phd.pdf){: .btn .btn--primary}
 [Google Scholar](https://scholar.google.com/citations?user=NoTxxDQAAAAJ&hl=en&oi=ao){: .btn .btn--primary}
 [ResearchGate](https://www.researchgate.net/profile/Abhijit-Ghosh-28?ev=hdr_xprf){: .btn .btn--primary}
 [ORCID](https://orcid.org/0009-0006-6633-4849){: .btn .btn--primary}
