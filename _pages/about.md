@@ -1,56 +1,190 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Abhijit Kumar Ghosh"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# Abhijit Kumar Ghosh
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+**Lecturer, Department of Computer Science and Engineering**  
+**European University of Bangladesh**
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Welcome to my academic portfolio. I am a computer science academic and researcher with interests in **Machine Learning, Deep Learning, Computer Vision, Medical Image Analysis, Trustworthy AI, Time-Series Forecasting, Multimodal AI, and Applied Data Science**.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My work focuses on developing intelligent, reliable, and practical AI-based systems for real-world problems, especially in healthcare, education, computer vision, and data-driven decision support.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+[View My Publications](/publications/){: .btn .btn--primary}
+[View My CV](/cv/){: .btn .btn--primary}
+[Research & Projects](/portfolio/){: .btn .btn--primary}
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+---
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## About Me
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+I am currently serving as a **Lecturer in the Department of Computer Science and Engineering at the European University of Bangladesh**. I am also pursuing an **M.Sc. in Computer Science and Engineering at BRAC University**.
 
-**Markdown generator**
+I completed my **B.Sc. in Computer Science and Engineering from BRAC University**, where my undergraduate thesis was titled **“ML Based Career Suggestive System for Informal Job Sector Considering Cognitive Skills.”**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+My academic journey combines teaching, software development, and research in artificial intelligence. I am particularly interested in building AI systems that are not only accurate but also explainable, trustworthy, and useful in practical environments.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## Research Interests
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+My current research interests include:
+
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Medical Image Analysis
+- Trustworthy AI
+- Multimodal AI
+- Time-Series Forecasting
+- Applied Data Science
+- AI for Healthcare
+- AI-Based Decision Support Systems
+
+---
+
+## Current Academic Role
+
+### Lecturer  
+**Department of Computer Science and Engineering**  
+**European University of Bangladesh**
+
+I teach undergraduate courses related to computer science, software systems, artificial intelligence, and computing fundamentals.
+
+My teaching areas include:
+
+- Object-Oriented Programming
+- Digital Logic Design
+- Software Engineering
+- Artificial Intelligence
+- Image Processing
+- Theory of Computing
+- Computer Fundamentals
+
+Previously, I worked as a **Student Tutor at BRAC University**, where I supported undergraduate students in learning core computer science concepts.
+
+---
+
+## Education
+
+### M.Sc. in Computer Science and Engineering  
+**BRAC University**  
+Status: Ongoing
+
+### B.Sc. in Computer Science and Engineering  
+**BRAC University**  
+CGPA: **3.63/4.00**
+
+**Thesis:** *ML Based Career Suggestive System for Informal Job Sector Considering Cognitive Skills*
+
+---
+
+## Research and Publications
+
+My research work covers several areas of artificial intelligence and applied computing, including medical imaging, disease classification, phishing detection, time-series forecasting, EEG-based disease detection, multimodal AI, and trustworthy AI.
+
+Selected research topics include:
+
+- Breast cancer histopathology analysis
+- Gallbladder disease classification using Swin Transformer
+- Tea leaf disease classification and out-of-distribution detection
+- Parkinson’s disease gait forecasting using VAR, LSTM, and GRU
+- EEG-based epilepsy detection
+- Phishing detection using VLM and LLM reasoning
+- Byzantine fault tolerance in network intrusion detection
+- AI-based automated peer-review protection
+
+A detailed list of my journal articles, preprints, conference papers, and ongoing submissions is available on the [Publications page](/publications/).
+
+---
+
+## Selected Publications
+
+1. Enam Ahmed Taufika, Md Ahasanul Arafath, **Abhijit Kumar Ghosh**, Md Tanzim Reza, and Md Ashad Alam.  
+   **Histo-MExNet: A Unified Framework for Real-World, Cross-Magnification, and Trustworthy Breast Cancer Histopathology.**  
+   *arXiv preprint arXiv:2603.14416*, 2026. Submitted to *Biomedical Signal Processing and Control*.
+
+2. Fateha Jannat Ayrin, Mizanur Rahman, Ashifur Rahman, Vishwanath Akuthota, **Abhijit Kumar Ghosh**, Md Maruf Hasan Khondaker, Muntasim Ul Haque, Montaser Abdul Quader, and Md Tanzim Reza.  
+   **Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning.**  
+   Accepted and presented at the *2026 IEEE International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE 2026)*.
+
+3. **Abhijit Kumar Ghosh**, Chowdhury Sajadul Islam, Mohammad Azim, Fariha Nusrat, Md. Ahasanul Arafath, and Md Tanzim Reza.  
+   **Swin Transformer-Based Multi-Class Classification of Gallbladder Diseases: A Comparative Study with Lightweight CNNs.**  
+   Presented at the *2nd Undergraduate Conference on Intelligent Computing and Systems (UCICS 2026)*.
+
+---
+
+## Professional Experience
+
+I have experience in teaching, software development, programming, and academic support.
+
+Previous professional roles include:
+
+- **Software Developer**, SYMPHONY Softtech Ltd.
+- **Programmer**, Square Informatix Limited
+- **Intern**, Data Edge Limited
+- **Student Tutor**, BRAC University
+
+---
+
+## Selected Projects
+
+### AI-Based Grade Prediction System
+
+A machine learning-based student performance prediction system using academic indicators such as quizzes, attendance, assignments, and participation. The system was designed to identify at-risk students and support data-driven academic decisions.
+
+### Bangla Language Developing System
+
+A proposed Bangla language learning and assessment platform designed to support education and job-sector examination preparation in Bangladesh.
+
+### Fire Alarm System in Farm
+
+An Arduino Nano-based fire alarm system developed for early detection of fire hazards in farm environments.
+
+---
+
+## Academic Service
+
+I served as a **Reviewer for Deep Learning IndabaX Nigeria 2026**, reviewing submissions in:
+
+- Computer Vision & Multimodal AI
+- AI for Health & Biomedical Applications
+- Distributed, Federated & Privacy-Preserving AI
+
+---
+
+## Technical Skills
+
+**Programming Languages:** Python, Java, C++, C#  
+
+**Machine Learning & Computer Vision:** PyTorch, TensorFlow, Scikit-learn, OpenCV  
+
+**Databases:** MySQL, Oracle  
+
+**Web Technologies:** HTML, CSS, JavaScript, Apache Web Server  
+
+**Research & Development Tools:** LaTeX, Git, Jupyter Notebook, Google Colab  
+
+---
+
+## Academic Profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=NoTxxDQAAAAJ&hl=en&oi=ao)
+- [ResearchGate](https://www.researchgate.net/profile/Abhijit-Ghosh-28?ev=hdr_xprf)
+- [ORCID](https://orcid.org/0009-0006-6633-4849)
+- [GitHub](https://github.com/abhijitkghosh)
+
+---
+
+## Contact
+
+For academic collaboration, research discussion, supervision-related communication, or professional contact, please feel free to reach out.
+
+**Email:** [abhijit.kumar.ghosh.77880@gmail.com](mailto:abhijit.kumar.ghosh.77880@gmail.com)  
+**Location:** Dhaka, Bangladesh
