@@ -9,7 +9,7 @@ site_theme               : "default"
 title                    : "Abhijit Kumar Ghosh"
 title_separator          : "-"
 name                     : &name "Abhijit Kumar Ghosh"
-description              : &description "CSE Lecturer | Researcher in AI, Computer Vision & Data Science"
+description              : &description "Lecturer in CSE | Researcher in Computer Vision, Medical AI & Health Informatics"
 url                      : "https://abhijitkghosh.github.io"
 baseurl                  : ""
 repository               : "abhijitkghosh/abhijitkghosh.github.io"
@@ -23,7 +23,7 @@ author:
   avatar           : "Abhijit.jpg"
   name             : "Abhijit Kumar Ghosh"
   pronouns         :
-  bio              : "CSE Lecturer | Researcher in AI, Computer Vision & Data Science"
+  bio              : "Lecturer in CSE | Researcher in Computer Vision, Medical AI & Health Informatics"
   location         : "Dhaka, Bangladesh"
   employer         : "European University of Bangladesh"
   uri              : "https://abhijitkghosh.github.io"
@@ -62,7 +62,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "abhijitkumarghosh77880"
   mastodon         :
   medium           :
   pinterest        :
