@@ -1,0 +1,34 @@
+/* ==========================================================================
+   COLORS FOR THE CUSTOM PAGES (Publications, Talks, Teaching, Portfolio)
+   Light values are the default; the dark values follow the site theme toggle.
+   ========================================================================== */
+
+:root {
+  --cp-text:        #222222;
+  --cp-text-2:      #333333;
+  --cp-text-muted:  #444444;
+  --cp-card-bg:     #ffffff;
+  --cp-soft-bg:     #f7f9fb;
+  --cp-chip-bg:     #f2f5f7;
+  --cp-border:      #e8e8e8;
+  --cp-rule:        #e4e4e4;
+  --cp-chip-border: #d9e2e7;
+  --cp-accent:      #2f7f95;
+  --cp-accent-dark: #245f70;
+  --cp-on-accent:   #ffffff;
+}
+
+html[data-theme="dark"] {
+  --cp-text:        #ffffff;
+  --cp-text-2:      #f3f3f3;
+  --cp-text-muted:  #dcdcdc;
+  --cp-card-bg:     #3b3b3b;
+  --cp-soft-bg:     #34444a;
+  --cp-chip-bg:     #4f5558;
+  --cp-border:      #5e5e5e;
+  --cp-rule:        #6a6a6a;
+  --cp-chip-border: #6e7a80;
+  --cp-accent:      #2f8fa8;
+  --cp-accent-dark: #3aa3be;
+  --cp-on-accent:   #ffffff;
+}

@@ -111,17 +111,17 @@ August 2023 – February 2024
 
 ### Conference Presentations
 
-1. Md Ahasanul Arafath, Md Tanzim Reza, Md Hasan Moon, Simantha Saha, Sadia Shobnom, Md Rony Ahmed, and **Abhijit Kumar Ghosh**.  
+1. **Abhijit Kumar Ghosh**, Chowdhury Sajadul Islam, Mohammad Azim, Fariha Nusrat, Md Ahasanul Arafath, and Md Tanzim Reza.  
+   **Swin Transformer-Based Multi-Class Classification of Gallbladder Diseases: A Comparative Study with Lightweight CNNs.**  
+   Presented at the *2nd Undergraduate Conference on Intelligent Computing and Systems (UCICS 2026)*, Rajshahi, Bangladesh, 17–18 January 2026. Paper ID: 18.
+
+2. Md Ahasanul Arafath, Md Tanzim Reza, Md Hasan Moon, Simantha Saha, Sadia Shobnom, Md Rony Ahmed, and **Abhijit Kumar Ghosh**.  
    **Comparative Multivariate Time-Series Forecasting of IMU-Based Gait Data for Parkinson's Disease Using VAR, LSTM, and GRU Models.**  
    Presented at the *International Conference on Intelligent Data Analysis and Applications (IDAA 2025)*, Dhaka, Bangladesh, 12–13 December 2025. Paper ID: 10382.
 
-2. Fateha Jannat Ayrin, Md Mizanur Rahman, Mozdaher Abdul Quader, Vishwanath Akuthota, Mehedi Hasan Jony, Md Maruf Hasan Khondaker, Nur A. Shawal, Montaser Abdul Quader, and **Abhijit Kumar Ghosh**.  
+3. Fateha Jannat Ayrin, Md Mizanur Rahman, Mozdaher Abdul Quader, Vishwanath Akuthota, Mehedi Hasan Jony, Md Maruf Hasan Khondaker, Nur A. Shawal, Montaser Abdul Quader, and **Abhijit Kumar Ghosh**.  
    **Consensus with LLMs: CoT-Arbitrated Byzantine Fault Tolerance in Network Intrusion Detection.**  
    Presented at the *International Conference on Intelligent Data Analysis and Applications (IDAA 2025)*, Dhaka, Bangladesh, 12–13 December 2025. Paper ID: 10791.
-
-3. **Abhijit Kumar Ghosh**, Chowdhury Sajadul Islam, Mohammad Azim, Fariha Nusrat, Md Ahasanul Arafath, and Md Tanzim Reza.  
-   **Swin Transformer-Based Multi-Class Classification of Gallbladder Diseases: A Comparative Study with Lightweight CNNs.**  
-   Presented at the *2nd Undergraduate Conference on Intelligent Computing and Systems (UCICS 2026)*, Rajshahi, Bangladesh, 17–18 January 2026. Paper ID: 18.
 
 ### Accepted and Submitted Conference Papers
 
