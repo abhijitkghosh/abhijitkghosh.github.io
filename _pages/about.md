@@ -7,90 +7,66 @@ redirect_from:
   - /about.html
 ---
 
-**Lecturer, Department of Computer Science and Engineering**  
-**European University of Bangladesh**
+**Lecturer, Department of Computer Science and Engineering, European University of Bangladesh**  
+**Research Assistant, ELITE Research Lab LLC (United States, Remote)**
 
-Welcome to my academic portfolio. I am a computer science academic and researcher working at the intersection of **Machine Learning, Deep Learning, Computer Vision, Medical Image Analysis, Trustworthy AI, and Applied Data Science**.
+Welcome to my academic portfolio. I am a computer science lecturer and researcher working in **Computer Vision, Medical Health AI, Health Informatics, and Deep Learning**.
 
-My work focuses on building practical and reliable AI-based systems for real-world problems, particularly in healthcare, education, computer vision, and data-driven decision support.
+My work focuses on building accurate, reliable, and clinically meaningful AI systems, particularly for medical image analysis, computational pathology, biomedical signals, and trustworthy decision support.
 
 [Publications](/publications/){: .btn .btn--primary}
 [Curriculum Vitae](/cv/){: .btn .btn--primary}
+[Download CV (PDF)](/files/Abhijit_Kumar_Ghosh_CV.pdf){: .btn .btn--primary}
 [Research & Projects](/portfolio/){: .btn .btn--primary}
 
 ---
 
 ## About
 
-I am currently serving as a **Lecturer in the Department of Computer Science and Engineering at the European University of Bangladesh**. I completed my **B.Sc. in Computer Science and Engineering from BRAC University**, where my thesis focused on an **ML-based career suggestive system for the informal job sector**.
+I am a **Lecturer in the Department of Computer Science and Engineering at the European University of Bangladesh** (since March 2025), and a **Research Assistant at ELITE Research Lab LLC** (remote, since September 2026), where I supervise two research groups working on computer vision and medical image analysis — guiding research methodology, model development, experimentation, and technical implementation.
 
-My academic background combines teaching, software development, and research in artificial intelligence. I am especially interested in AI systems that are accurate, explainable, trustworthy, and useful in practical environments.
+I completed my **B.Sc. in Computer Science and Engineering at BRAC University** (CGPA 3.63/4.00), where my thesis, supervised by Dr. Md. Khalilur Rahman, developed an **ML-based career suggestive system for the informal job sector considering cognitive skills**.
 
----
-
-## Research Focus
-
-My research interests include:
-
-- Machine Learning and Deep Learning
-- Computer Vision and Medical Image Analysis
-- Trustworthy and Explainable AI
-- Multimodal AI
-- Time-Series Forecasting
-- Applied Data Science
-- AI for Healthcare and Decision Support
+Before joining academia, I worked as a software developer at **SYMPHONY Softtech Ltd.** and as a programmer at **Square Informatix Limited**, building enterprise applications with ASP.NET Core, MySQL, and Oracle.
 
 ---
 
-## Selected Research Areas
+## Research Interests
 
-My recent and ongoing work includes:
+- Computer Vision
+- Medical Health AI
+- Health Informatics
+- Deep Learning
 
-- Breast cancer histopathology analysis
-- Gallbladder disease classification using deep learning
-- Tea leaf disease classification and out-of-distribution detection
-- Parkinson’s disease gait forecasting
-- EEG-based epilepsy detection
-- Phishing detection using VLM and LLM reasoning
-- Trustworthy and adversarially robust AI systems
+---
 
-For a full list of papers, preprints, conference presentations, and ongoing submissions, please visit my [Publications page](/publications/).
+## Recent Highlights
+
+- **Accepted (2026):** *Adaptive Multi-View Transformer for Banknote Detection* — IEEE SPICSCON 2026 (first author).
+- **Submitted (2026):** *Gated Dual-Scale Feature Fusion for Colorectal Cancer Grading in Centralized and Federated Pathology* — Informatics in Medicine Unlocked (first author).
+- **Submitted (2026):** *From Benchmark Success to Clinical Readiness in AI-Based Brain Tumour MRI Analysis: A Systematic Scoping Review* — Journal of Neuroradiology.
+- **Submitted (2026):** Two papers on trustworthy tuberculosis / acid-fast bacilli detection in sputum-smear microscopy — DICTA 2026.
+- **Published (2026):** *PaperNet* for EEG epilepsy detection — IDAA 2025, Atlantis Press. [DOI](https://doi.org/10.2991/978-94-6239-664-7_79)
+- **Published (2026):** *Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning* — IEEE ICECTE 2026. [DOI](https://doi.org/10.1109/ICECTE69292.2026.11429303)
+- **Published (2025):** *Tea Leaf Disease Classification and Out-of-Distribution Detection* — IEEE WIECON-ECE 2025. [DOI](https://doi.org/10.1109/WIECON-ECE69386.2025.11525958)
+- **Reviewer (2026):** Deep Learning IndabaX Nigeria and MINDs 2026.
+
+For the full list, please visit my [Publications page](/publications/).
 
 ---
 
 ## Teaching
 
-I teach undergraduate courses in computer science and engineering, including:
-
-- Object-Oriented Programming
-- Digital Logic Design
-- Software Engineering
-- Artificial Intelligence
-- Image Processing
-- Theory of Computing
-- Computer Fundamentals
-
----
-
-## Selected Projects
-
-### AI-Based Grade Prediction System
-
-A machine learning-based system for predicting student academic performance using academic indicators such as quizzes, attendance, assignments, and participation.
-
-### Bangla Language Developing System
-
-A proposed Bangla language learning and assessment platform designed to support education and job-sector examination preparation in Bangladesh.
-
-### Fire Alarm System in Farm
-
-An Arduino Nano-based early warning system for detecting fire hazards in farm environments.
+At the European University of Bangladesh I teach Computer Fundamentals, Object-Oriented Programming, Web Programming, Digital Logic Design, Software Engineering, Theory of Computing, Compiler Design, Artificial Intelligence, and Image Processing. I also supervise final-year projects, including deep-learning-based X-ray bone fracture classification. See the [Teaching page](/teaching/).
 
 ---
 
 ## Academic Service
 
-I have served as a reviewer for **Deep Learning IndabaX Nigeria 2026**, reviewing work related to computer vision, multimodal AI, AI for health, and privacy-preserving AI.
+- **Final-Year Project Supervisor**, European University of Bangladesh (2025–Present)
+- **Member Secretary, AI Club**, European University of Bangladesh (Spring 2025–Present)
+- **Reviewer**, Deep Learning IndabaX Nigeria (2026)
+- **Reviewer**, International Conference on Machine Intelligence and Network Data Security (MINDs 2026)
 
 ---
 
@@ -99,6 +75,7 @@ I have served as a reviewer for **Deep Learning IndabaX Nigeria 2026**, reviewin
 - [Google Scholar](https://scholar.google.com/citations?user=NoTxxDQAAAAJ&hl=en&oi=ao)
 - [ResearchGate](https://www.researchgate.net/profile/Abhijit-Ghosh-28?ev=hdr_xprf)
 - [ORCID](https://orcid.org/0009-0006-6633-4849)
+- [LinkedIn](https://www.linkedin.com/in/abhijitkumarghosh77880/)
 - [GitHub](https://github.com/abhijitkghosh)
 
 ---
@@ -108,4 +85,5 @@ I have served as a reviewer for **Deep Learning IndabaX Nigeria 2026**, reviewin
 For research collaboration, academic discussion, or professional communication, please feel free to contact me.
 
 **Email:** [abhijit.kumar.ghosh.77880@gmail.com](mailto:abhijit.kumar.ghosh.77880@gmail.com)  
+**Phone:** +880 1862 285708  
 **Location:** Dhaka, Bangladesh
