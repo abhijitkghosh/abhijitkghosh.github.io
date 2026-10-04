@@ -47,8 +47,8 @@ Before joining academia, I worked as a software developer at **SYMPHONY Softtech
 - **Submitted (2026):** *From Benchmark Success to Clinical Readiness in AI-Based Brain Tumour MRI Analysis: A Systematic Scoping Review* — Journal of Neuroradiology.
 - **Submitted (2026):** Two papers on trustworthy tuberculosis / acid-fast bacilli detection in sputum-smear microscopy — DICTA 2026.
 - **Published (2026):** *PaperNet* for EEG epilepsy detection — IDAA 2025, Atlantis Press. [DOI](https://doi.org/10.2991/978-94-6239-664-7_79)
-- **Published (2026):** *Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning* — IEEE ICECTE 2026. [DOI](https://doi.org/10.1109/ICECTE69292.2026.11429303)
 - **Published (2025):** *Tea Leaf Disease Classification and Out-of-Distribution Detection* — IEEE WIECON-ECE 2025. [DOI](https://doi.org/10.1109/WIECON-ECE69386.2025.11525958)
+- **Published (2026):** *Multi-Agent Phishing Detection and Deletion via Small VLM and LLM Reasoning* — IEEE ICECTE 2026. [DOI](https://doi.org/10.1109/ICECTE69292.2026.11429303)
 - **Reviewer (2026):** Deep Learning IndabaX Nigeria and MINDs 2026.
 
 For the full list, please visit my [Publications page](/publications/).
