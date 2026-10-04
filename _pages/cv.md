@@ -61,12 +61,6 @@ September 2026 – Present
 
 - Supervise two research groups working on computer vision and medical image analysis, providing guidance on research methodology, model development, experimentation, and technical implementation.
 
-### Student Tutor
-**BRAC University**  
-October 2020 – May 2022
-
-- Supported undergraduate learning and helped explain core computer science concepts in tutorial settings.
-
 ---
 
 ## Professional Experience
@@ -83,10 +77,6 @@ August 2023 – February 2024
 
 - Developed and maintained EQMS features using ASP.NET Core 6, Oracle Database, and AngularJS, including debugging and performance improvement.
 
-### Intern
-**Data Edge Limited**  
-September 2022 – December 2022
-
 ---
 
 ## Journal Manuscripts
@@ -100,10 +90,6 @@ September 2022 – December 2022
 2. Jannat-E-Nur, Enam Ahmed Taufik, **Abhijit Kumar Ghosh**, and Jia Uddin.  
    **From Benchmark Success to Clinical Readiness in AI-Based Brain Tumour MRI Analysis: A Systematic Scoping Review.**  
    Submitted to *Journal of Neuroradiology*, 2026.
-
-3. Enam Ahmed Taufik, Md Ahasanul Arafath, **Abhijit Kumar Ghosh**, Md Tanzim Reza, and Md Ashad Alam.  
-   **Histo-MExNet: A Unified Framework for Real-World, Cross-Magnification, and Trustworthy Breast Cancer Histopathology.**  
-   *arXiv preprint arXiv:2603.14416*, 2026. Submitted to *Biomedical Signal Processing and Control*.
 
 ---
 
@@ -150,12 +136,6 @@ September 2022 – December 2022
 3. Md Faisal Sheikh, Tanvir Limon, Enam Ahmed Taufik, **Abhijit Kumar Ghosh**, Mohammad Zavid Parvez, Prabal Barua, and Subrata Chakraborty.  
    **Towards Trustworthy Tuberculosis Detection: Subgroup Calibration of Object Detectors in Sputum-Smear Microscopy.**  
    Submitted to the *International Conference on Digital Image Computing: Techniques and Applications (DICTA 2026)*. Paper ID: 80.
-
-4. **PDFGuard: Multi-Layer Adversarial Protection Against AI-Based Automated Peer Review.**  
-   Submitted to *IEEE SPICSCON 2026*.
-
-5. **Reasoning Vision-Language Models for Multimodal Political Discourse and Bot Detection.**  
-   Under review at the *2026 International Conference on Engineering and Frontier Technologies*.
 
 ---
 
@@ -207,17 +187,6 @@ September 2022 – December 2022
 
 ---
 
-## Certifications
-
-- Full Stack ASP.NET Core, PencilBox Training Institute, 2023
-- Programming for Everybody, University of Michigan, 2020
-- Python Data Structures, University of Michigan, 2020
-- Introduction to HTML5, University of Michigan, 2020
-- Programming Fundamentals, Duke University, 2020
-- Presentation Skill, BRAC University, 2018
-
----
-
 ## Technical Skills
 
 **Programming:** Python, Java, C++, C#  
@@ -233,15 +202,3 @@ September 2022 – December 2022
 **Tools:** LaTeX, Git, Jupyter Notebook, Google Colab  
 
 **Languages:** Bangla (fluent), English (fluent), Chinese (professional proficiency)
-
----
-
-## References
-
-### Md. Khalilur Rhaman, PhD  
-Professor, Department of Computer Science and Engineering, BRAC University  
-Email: [khalilur@bracu.ac.bd](mailto:khalilur@bracu.ac.bd)
-
-### Md Tanzim Reza  
-Lecturer, Department of Computer Science and Engineering, BRAC University  
-Email: [tanzim.reza@bracu.ac.bd](mailto:tanzim.reza@bracu.ac.bd)
